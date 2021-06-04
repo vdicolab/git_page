@@ -1,9 +1,11 @@
-site_name: My site
+site_name: My first Git Page
 nav:
-    - Home: index.md
+    - Home of my course: index.md
     - Precourse preparations: precourse.md
-    - Course schedule: course_schedule.md
-    - Exercises: exercises.md
+    - Course schedule approved: course_schedule.md
+    - Exercises to test:
+      - Day 1: exercises/exercises_day1.md
+      - Day 2: exercises/exercises_day2.md
 
 theme:
   name: material
@@ -12,7 +14,7 @@ theme:
 
 # Repository
 repo_name: sib-swiss/course_website_template
-repo_url: https://github.com/sib-swiss/course_website_template
+repo_url: https://github.com/vdicolab/git_page
 
 markdown_extensions:
   - abbr
